@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xmlns:p="http://www.springframework.org/schema/p"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans 
+       http://www.springframework.org/schema/beans/spring-beans.xsd">
+
+    <!-- scanner redis -->
+    <bean id="poolConfig" class="redis.clients.jedis.JedisPoolConfig" >
+        <property name="maxIdle" value="${redis_max_idle}"/>
+        <property name="maxTotal" value="${redis_max_active}"/>
+        <property name="maxWaitMillis" value="${redis_max_wait}"/>
+        <property name="testOnBorrow" value="${redis_test_on_borrow}"/>
+        <property name="testOnReturn" value="true"/>
+        <property name="testWhileIdle" value="true"/>
+        <property name="timeBetweenEvictionRunsMillis" value="30000"/>
+        <property name="minEvictableIdleTimeMillis" value="30000" />
+    </bean>
+
+    <bean id="connectionFactory" class="org.springframework.data.redis.connection.jedis.JedisConnectionFactory"
+          p:hostName="${redis_ip}"
+          p:port="${redis_port}"
+          p:password="${redis_pass}"
+          p:usePool="true">
+        <!--p:poolConfig="poolConfig">-->
+        <property name="poolConfig" ref="poolConfig"/>
+    </bean>
+
+    <bean id="stringSerializer" class="org.springframework.data.redis.serializer.StringRedisSerializer"/>
+
+    <bean id="redisTemplate" class="org.springframework.data.redis.core.StringRedisTemplate">
+        <property name="connectionFactory" ref="connectionFactory"/>
+        <property name="keySerializer" ref="stringSerializer"/>
+        <property name="valueSerializer" ref="stringSerializer"/>
+        <!--<property name="enableTransactionSupport" value="true"/>-->
+    </bean>
+
+    <bean id="redisDao" class="com.haoyun.commons.redis.RedisDaoImpl">
+        <property name="redisTemplate" ref="redisTemplate"/>
+    </bean>
+</beans>

@@ -1,0 +1,47 @@
+Manifest-Version: 1.0
+Class-Path: lib/spring-aop-4.3.2.RELEASE.jar lib/hawtdispatch-transpor
+ t-1.11.jar lib/maven-artifact-2.0.9.jar lib/spring-beans-4.3.2.RELEAS
+ E.jar lib/maven-plugin-api-2.0.9.jar lib/commons-codec-1.6.jar lib/lo
+ g4j-api-2.8.2.jar lib/commons-io-1.4.jar lib/plexus-classworlds-2.2.2
+ .jar lib/maven-model-2.0.9.jar lib/protostuff-api-1.0.8.jar lib/plexu
+ s-utils-1.5.1.jar lib/spring-test-4.2.6.RELEASE.jar lib/hawtdispatch-
+ 1.11.jar lib/maven-compiler-plugin-3.1.jar lib/activemq-core-5.7.0.ja
+ r lib/geronimo-j2ee-management_1.1_spec-1.0.1.jar lib/maven-artifact-
+ manager-2.0.9.jar lib/activemq-jms-pool-5.14.5.jar lib/maven-plugin-d
+ escriptor-2.0.9.jar lib/spring-web-4.3.2.RELEASE.jar lib/spring-jms-4
+ .3.2.RELEASE.jar lib/commons-pool-1.6.jar lib/maven-plugin-parameter-
+ documenter-2.0.9.jar lib/protobuf-java-2.6.0.jar lib/log4j-slf4j-impl
+ -2.8.2.jar lib/protostuff-runtime-1.0.8.jar lib/cglib-3.1.jar lib/mav
+ en-plugin-registry-2.0.9.jar lib/slide-webdavlib-2.1.jar lib/maven-se
+ ttings-2.0.9.jar lib/activemq-protobuf-1.1.jar lib/spring-webmvc-4.3.
+ 2.RELEASE.jar lib/activemq-client-5.14.5.jar lib/maven-error-diagnost
+ ics-2.0.9.jar lib/commons-lang-2.6.jar lib/mongo-java-driver-3.4.2.ja
+ r lib/kahadb-5.7.0.jar lib/wagon-provider-api-1.0-beta-2.jar lib/spri
+ ng-context-support-4.3.2.RELEASE.jar lib/plexus-container-default-1.5
+ .5.jar lib/maven-shared-incremental-1.1.jar lib/plexus-compiler-api-2
+ .2.jar lib/spring-data-commons-1.13.1.RELEASE.jar lib/commons-logging
+ -api-1.1.jar lib/maven-shared-utils-0.1.jar lib/objenesis-2.1.jar lib
+ /commons-logging-1.1.3.jar lib/fastjson-1.2.20.jar lib/jsr305-2.0.1.j
+ ar lib/geronimo-jms_1.1_spec-1.1.1.jar lib/slf4j-api-1.7.24.jar lib/p
+ rotostuff-collectionschema-1.0.8.jar lib/spring-data-redis-1.3.0.RELE
+ ASE.jar lib/jedis-2.4.2.jar lib/spring-core-4.3.2.RELEASE.jar lib/mav
+ en-repository-metadata-2.0.9.jar lib/xbean-reflect-3.4.jar lib/maven-
+ profile-2.0.9.jar lib/log4j-1.2.12.jar lib/ehcache-3.2.0.jar lib/mave
+ n-project-2.0.9.jar lib/plexus-compiler-javac-2.2.jar lib/maven-toolc
+ hain-1.0.jar lib/google-collections-1.0.jar lib/httpcore-4.3.jar lib/
+ maven-monitor-2.0.9.jar lib/maven-core-2.0.9.jar lib/xpp3_min-1.1.3.4
+ .O.jar lib/spring-expression-4.3.2.RELEASE.jar lib/commons-pool2-2.4.
+ 2.jar lib/javax.servlet-api-3.0.1.jar lib/xstream-1.2.2.jar lib/sprin
+ g-context-4.3.2.RELEASE.jar lib/plexus-compiler-manager-2.2.jar lib/c
+ ommons-httpclient-2.0.2.jar lib/spring-messaging-4.3.2.RELEASE.jar li
+ b/jdom-2.0.2.jar lib/log4j-core-2.8.2.jar lib/jdom-1.0.jar lib/mqtt-c
+ lient-1.3.jar lib/commons-net-3.1.jar lib/netty-all-4.1.6.Final.jar l
+ ib/httpclient-4.3.1.jar lib/wagon-webdav-1.0-beta-2.jar lib/activemq-
+ pool-5.14.5.jar lib/spring-data-mongodb-1.10.0.RELEASE.jar lib/plexus
+ -component-annotations-1.5.5.jar lib/geronimo-jta_1.0.1B_spec-1.0.1.j
+ ar lib/hawtbuf-1.9.jar lib/jcl-over-slf4j-1.7.24.jar lib/CCP_REST_SMS
+ _SDK_JAVA_v2.6.3r.jar lib/asm-4.2.jar lib/xml-im-exporter-1.1.jar lib
+ /protostuff-core-1.0.8.jar lib/jasypt-1.9.0.jar lib/spring-tx-3.2.9.R
+ ELEASE.jar
+Main-Class: com.haoyun.core.AppInit
+
