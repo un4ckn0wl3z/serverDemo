@@ -20,7 +20,7 @@
         <spring.version>4.3.4.RELEASE</spring.version>
         <mysql.version>5.1.38</mysql.version>
         <ehcache.version>3.2.0</ehcache.version>
-        <shiro.version>1.2.4</shiro.version>
+        <shiro.version>1.10.0</shiro.version>
         <project.build.directory>target</project.build.directory>
         <project.build.resource.directory>target/resource</project.build.resource.directory>
 
